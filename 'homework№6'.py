@@ -51,5 +51,9 @@ print(my_dict) #вывели значение на консоль
 print(my_dict.pop("Lena")) #
 print(my_dict)
 
+ #Работа над ошибками 2.
+my_dict = {"Mariya": 1979, "Ivan": 1978}
+print(my_dict)
+print(my_dict.get("Afonya")) #вывели значение несуществующего ключа. На консоли появилось None,так как ключа нет
 
 
